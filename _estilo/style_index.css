@@ -1,0 +1,71 @@
+body{
+background-color: rgba(167, 204, 230, 0.411);
+}
+.titulo{
+    color: #000000;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 20px;
+    padding: 0%;
+}
+.box_user_pass{
+position: relative;
+width: 500px;
+height: 500px;
+background-color: rgb(255, 255, 255);
+border: 1px solid black;
+margin: auto;
+margin-top: 10px;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.box_user_pass h1{
+position: relative;
+font-size: 15px;
+font-family: 'Archivo Narrow', sans-serif;
+margin-left: 105px;
+}
+.box_user_pass img{
+position: relative;
+width: 200px;
+height: 200px;
+margin-left: 150px;
+margin-top: 50px;
+}
+form{
+position: relative;
+margin-left:160px;
+}
+#campo{
+position: relative;
+margin-bottom: 10px;
+}
+#enviar{
+position: relative;
+border-radius: 100px;
+background-color: rgb(143, 143, 143);
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 60px;
+margin-top: 5px;
+}
+#enviar:hover{
+background-color: aliceblue;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#rodape{
+position: relative;
+margin-top: 3%;
+border-top: 1px solid black;
+background-color: rgb(193, 248, 230);
+}
+#rodape p{
+text-align: center;
+font-size: 10px;
+}
+a{
+position: relative;
+text-decoration: none;
+color: black;
+margin-left: 10px;
+font-family: 'Archivo Narrow', sans-serif;
+font-size: 15px;
+}
