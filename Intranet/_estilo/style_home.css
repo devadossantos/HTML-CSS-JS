@@ -36,8 +36,11 @@ text-decoration: none;
 color: rgb(187, 187, 186);
 }
 #barra_inferior{
-position: relative;
-height: 70px;
+    position: relative;
+    height: 50px;
+
+;
+
 width: 1050px;
 margin-left: -200px;
 text-align: center;
