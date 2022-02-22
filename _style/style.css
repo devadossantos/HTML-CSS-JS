@@ -3,21 +3,18 @@ body{
 }
 #background{
     position:absolute;
-    margin-left: 700px;
+    margin-left: 600px;
     opacity: 50%;
+    margin-top: 140px;
+}
+#background1{
+  position:absolute;
+  margin-left: 700px;
 }
 nav{
     background-color: blueviolet;
     margin: 0%;
     padding: 0%;
-}
-#menu{
-    position: absolute;
-    width: 140px;
-    margin-top: -65px;
-    margin-left: 20px;
-    display: flex;
-  
 }
 #menu1{
   list-style: none;
@@ -34,8 +31,9 @@ nav{
   color: white;
   vertical-align: middle;
   text-align: center;
-  font-family: 'Akaya Telivigala', cursive;
-  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  padding: 3px;
   transition: color 1s, background-color 0.7s, border-radius 0.5;
 }
 #menu2:hover{
@@ -64,7 +62,7 @@ vertical-align:middle;
 P{
 text-align: center;
 color: white;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: 'Pacifico', cursive;
 }
 #tabela{
   position: absolute;
@@ -78,7 +76,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   height: 200px;
   margin-top: 30px;
   margin-left: 10px;
-  border: 2px dotted rgba(0, 162, 255, 0.712);
+  border: 2px solid rgba(0, 162, 255, 0.712);
   display: flex;
  }
  #jogo:hover{
@@ -92,7 +90,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   height: 200px;
   margin-top: 30px;
   margin-left: 230px;
-  border: 2px dotted rgba(0, 162, 255, 0.712);
+  border: 2px solid rgba(0, 162, 255, 0.712);
   display: flex;
 }
 #jogo2:hover{
@@ -106,7 +104,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   height: 200px;
   margin-top: 30px;
   margin-left: 450px;
-  border: 2px dotted rgba(0, 162, 255, 0.712);
+  border: 2px solid rgba(0, 162, 255, 0.712);
   display: flex;
 }
 #jogo3:hover{
@@ -120,7 +118,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   height: 200px;
   margin-top: 250px;
   margin-left: 10px;
-  border: 2px dotted rgba(0, 162, 255, 0.712);
+  border: 2px solid rgba(0, 162, 255, 0.712);
   display: flex;
 }
 #jogo4:hover{
@@ -134,7 +132,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   height: 200px;
   margin-top: 250px;
   margin-left: 228px;
-  border: 2px dotted rgba(0, 162, 255, 0.712);
+  border: 2px solid rgba(0, 162, 255, 0.712);
   display: flex;
 }
 #jogo5:hover{
@@ -148,7 +146,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   height: 200px;
   margin-top: 250px;
   margin-left: 450px;
-  border: 2px dotted rgba(0, 162, 255, 0.712);
+  border: 2px solid rgba(0, 162, 255, 0.712);
   display: flex;
 }
 #jogo6:hover{
@@ -176,9 +174,11 @@ height: 420px;
 }
 #texto{
 width: 400px;
+
 position: relative;
 margin-left: 500px;
 margin-top: -400px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #mariofundo{
     position:absolute;
