@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./_style/Style_formulario.css">
+    <title>Fale com a Portal Gamer</title>
+</head>
+<body>
+    <H1>Deixe seu recado para a PortalGamer</H1>
+
+    <form class="form"action="https://formsubmit.co/agss.telecom@gmail.com" method="POST">
+        <label>Digite seu nome:</label>
+        <input type="text" name="name" required>
+        <label>Digite seu e-mail:</label>
+        <input type="email" name="email" required>
+        <label>Deixe seu recado:</label>
+        <textarea name="message" required placeholder="Digite Aqui"></textarea> 
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+        <button type="submit">Enviar</button>
+   </form> 
+</body>
+</html>
