@@ -69,7 +69,7 @@ font-family: 'Pacifico', cursive;
   margin-top: 500px;
   margin-left: 50px;
 }
-#jogo{
+#jogo1{
   position: absolute;
   border-radius: 10px;
   width: 200px;
@@ -160,138 +160,60 @@ font-family: 'Pacifico', cursive;
     margin-top: 900px;
   }
   @media screen and (min-width: 0px) and (max-width: 500px){
-    #menu2{
-      width: 150px;
-      height: 30px;
-      display: table-cell;
-      background-color: blueviolet;
-      color: white;
-      vertical-align: middle;
-      text-align: center;
-      font-family: 'Press Start 2P', cursive;
-      font-size: 10px;
-      transition: color 1s, background-color 0.7s, border-radius 0.5;
-    }
-    #menu1{
-      list-style: none;
-      padding: 0px;
-      background-color: blueviolet;
-      border-radius: 10px;
-      text-align: center;
-    }
-    table{
-    position: relative;
-    border: 1px solid white;
-    color: white;
-    table-layout: fixed;
-    width: 400px;
-    height: 300px;
-    }
-    tr,th{
-    border: 1px solid white;
-    vertical-align:middle;
-    }
-    P{
-    text-align: center;
-    color: white;
-    font-family: 'Pacifico', cursive;
-    }
-    #tabela{
-      position: absolute;
-      margin-top: 500px;
-      margin-left: 50px;
-    }
-    #jogo{
-      position: absolute;
-      border-radius: 10px;
-      width: 200px;
-      height: 200px;
-      margin-top: 30px;
-      margin-left: 10px;
-      border: 2px solid rgba(0, 162, 255, 0.712);
-      display: flex;
-     }
-     #jogo:hover{
-     border: 5px solid rgba(70, 70, 70, 0.479);
-     opacity: 80%;
-     }
-    #jogo2{
-      position: absolute;
-      border-radius: 10px;
-      width: 200px;
-      height: 200px;
-      margin-top: 30px;
-      margin-left: 230px;
-      border: 2px solid rgba(0, 162, 255, 0.712);
-      display: flex;
-    }
-    #jogo2:hover{
-     border: 5px solid rgba(70, 70, 70, 0.479);
-     opacity: 80%;
-     }
-    #jogo3{
-      position: absolute;
-      border-radius: 10px;
-      width: 200px;
-      height: 200px;
-      margin-top: 30px;
-      margin-left: 450px;
-      border: 2px solid rgba(0, 162, 255, 0.712);
-      display: flex;
-    }
-    #jogo3:hover{
-     border: 5px solid rgba(70, 70, 70, 0.479);
-     opacity: 80%;
-     }
-    #jogo4{
-      position: absolute;
-      border-radius: 10px;
-      width: 200px;
-      height: 200px;
-      margin-top: 250px;
-      margin-left: 10px;
-      border: 2px solid rgba(0, 162, 255, 0.712);
-      display: flex;
-    }
-    #jogo4:hover{
-     border: 5px solid rgba(70, 70, 70, 0.479);
-     opacity: 80%;
-     }
-    #jogo5{
-      position: absolute;
-      border-radius: 10px;
-      width: 200px;
-      height: 200px;
-      margin-top: 250px;
-      margin-left: 228px;
-      border: 2px solid rgba(0, 162, 255, 0.712);
-      display: flex;
-    }
-    #jogo5:hover{
-     border: 5px solid rgba(70, 70, 70, 0.479);
-     opacity: 80%;
-     }
-    #jogo6{
-      position: absolute;
-      border-radius: 10px;
-      width: 200px;
-      height: 200px;
-      margin-top: 250px;
-      margin-left: 450px;
-      border: 2px solid rgba(0, 162, 255, 0.712);
-      display: flex;
-    }
-    #jogo6:hover{
-     border: 5px solid rgba(70, 70, 70, 0.479);
-     opacity: 80%;
-     }
-     #rodape2{
-      margin-top: 200px;
-      }
-      #rodape{
-        margin-top: 900px;
-      }
 
-
-
+  #background{
+  display: none;
   }
+
+  #background1{
+  margin-left: -5px;
+  margin-top: -80px;
+  }
+
+nav{
+  height: 200px;
+  width: 100%;
+  display: flex;
+    background-color: blueviolet;
+}
+
+#menu1{
+  list-style: none;
+  background-color: blueviolet;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#menu2{
+  background-color: blueviolet;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  transition: color 1s, background-color 0.7s, border-radius 0.5;
+}
+table{
+display: none;
+}
+#jogo1{
+  margin-top: 120px;
+  margin-left: 30px;
+ }
+ #jogo2{
+  margin-top: 120px;
+  margin-left: 260px;
+ }
+ #jogo3{
+  margin-top: 350px;
+  margin-left: 30px;
+ }
+ #jogo4{
+  margin-top: 350px;
+  margin-left: 260px;
+ }
+ #jogo5{
+  margin-top: 580px;
+  margin-left: 30px;
+ }
+  #jogo6{
+    margin-top: 580px;
+    margin-left: 260px;
+}
