@@ -159,7 +159,7 @@ font-family: 'Pacifico', cursive;
   #rodape{
     margin-top: 900px;
   }
-  @media screen and (min-width: 0px) and (max-width: 375px){
+  @media screen and (min-width: 0px) and (max-width: 412px){
 
   #background{
   display: none;
@@ -168,21 +168,20 @@ font-family: 'Pacifico', cursive;
   #background1{
   margin-left: -5px;
   margin-top: -80px;
-  width: 370px;
+  width: 402px;
   }
 
 nav{
-  height: 200px;
+  height: 190px;
   width: 100%;
-  display: flex;
-    background-color: blueviolet;
+
 }
 
 #menu1{
   list-style: none;
   background-color: blueviolet;
   border-radius: 10px;
-  text-align: center;
+  text-align: center
 }
 
 #menu2{
@@ -190,6 +189,7 @@ nav{
   color: white;
   font-family: 'Press Start 2P', cursive;
   transition: color 1s, background-color 0.7s, border-radius 0.5;
+  
 }
 table{
 display: none;
