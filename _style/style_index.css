@@ -159,7 +159,7 @@ font-family: 'Pacifico', cursive;
   #rodape{
     margin-top: 900px;
   }
-  @media screen and (min-width: 0px) and (max-width: 412px){
+  @media screen and (min-width: 0px) and (max-width: 500px){
 
   #background{
   display: none;
