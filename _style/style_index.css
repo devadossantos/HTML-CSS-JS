@@ -159,7 +159,7 @@ font-family: 'Pacifico', cursive;
   #rodape{
     margin-top: 900px;
   }
-  @media screen and (min-width: 0px) and (max-width: 500px){
+  @media screen and (min-width: 0px) and (max-width: 375px){
 
   #background{
   display: none;
@@ -168,6 +168,7 @@ font-family: 'Pacifico', cursive;
   #background1{
   margin-left: -5px;
   margin-top: -80px;
+  width: 370px;
   }
 
 nav{
@@ -194,26 +195,39 @@ table{
 display: none;
 }
 #jogo1{
-  margin-top: 120px;
-  margin-left: 30px;
+  margin-top: 70px;
+  margin-left: 10px;
+  width: 40%;
+  height: 20%;
  }
  #jogo2{
-  margin-top: 120px;
-  margin-left: 260px;
+  margin-top: 70px;
+  margin-left: 190px;
+  width: 40%;
+  height: 20%;
  }
  #jogo3{
-  margin-top: 350px;
-  margin-left: 30px;
+  margin-top: 260px;
+  margin-left: 10px;
+  width: 40%;
+  height: 20%;
  }
  #jogo4{
-  margin-top: 350px;
-  margin-left: 260px;
+  margin-top: 260px;
+  margin-left: 190px;
+  width: 40%;
+  height: 20%;
  }
  #jogo5{
-  margin-top: 580px;
-  margin-left: 30px;
+  margin-top: 450px;
+  margin-left: 10px;
+  width: 40%;
+  height: 20%;
  }
   #jogo6{
-    margin-top: 580px;
-    margin-left: 260px;
+    margin-top: 450px;
+    margin-left: 190px;
+    width: 40%;
+    height: 20%;
 }
+  }
