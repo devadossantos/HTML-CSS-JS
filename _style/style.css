@@ -12,14 +12,14 @@ body{
   margin-left: 700px;
 }
 nav{
-    background-color: blueviolet;
+    background-color: rgb(107, 43, 226);
     margin: 0%;
     padding: 0%;
 }
 #menu1{
   list-style: none;
   padding: 0px;
-  background-color: blueviolet;
+  background-color: rgb(107, 43, 226);
   text-align:end;
   border-radius: 10px;
 }
@@ -27,7 +27,7 @@ nav{
   width: 150px;
   height: 50px;
   display: table-cell;
-  background-color: blueviolet;
+  background-color: rgb(107, 43, 226);
   color: white;
   vertical-align: middle;
   text-align: center;
@@ -37,7 +37,6 @@ nav{
   transition: color 1s, background-color 0.7s, border-radius 0.5;
 }
 #menu2:hover{
-  background-color: rgb(105, 33, 173);
   color: aqua;
   border-radius: 10px;
 }
@@ -69,7 +68,7 @@ font-family: 'Pacifico', cursive;
   margin-top: 500px;
   margin-left: 50px;
 }
-#jogo{
+#jogo1{
   position: absolute;
   border-radius: 10px;
   width: 200px;
@@ -78,8 +77,9 @@ font-family: 'Pacifico', cursive;
   margin-left: 10px;
   border: 2px solid rgba(0, 162, 255, 0.712);
   display: flex;
+  transition: border 1s;
  }
- #jogo:hover{
+ #jogo0:hover{
  border: 5px solid rgba(70, 70, 70, 0.479);
  opacity: 80%;
  }
@@ -93,7 +93,7 @@ font-family: 'Pacifico', cursive;
   border: 2px solid rgba(0, 162, 255, 0.712);
   display: flex;
 }
-#jogo2:hover{
+#jogo1:hover{
  border: 5px solid rgba(70, 70, 70, 0.479);
  opacity: 80%;
  }
